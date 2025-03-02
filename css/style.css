@@ -22,7 +22,7 @@ body {
     background-color: #1E7EE8;
     border-end-start-radius: 30px;
     border-end-end-radius: 30px;
-    height: 141px;
+    height: 114px;
 }
 
 .page-header__container {
@@ -40,8 +40,8 @@ body {
 }
 
 .page-header__logo-img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
 }
 
 .page-header__info {
