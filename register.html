@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="images/puzzle.png" alt="Puzzle" class="header__logo-img">
+            </div>
+            <span class="header__text">&</span>
+            <div class="header__logo">
+                <img src="images/code.png" alt="Code" class="header__logo-img">
+            </div>
+        </div>
+    </header>
+
+    <main class="page__main">
+        <section class="registration">
+            <h2 class="registration__title">Регистрация</h2>
+            <form class="registration__form" action="#" method="post">
+                <div class="registration__group">
+                    <input class="registration__input" type="text" id="userId" name="userId" placeholder="Введите ID"
+                        required>
+                </div>
+
+                <div class="registration__group">
+                    <div class="registration__select registration__select--custom">
+                        <select class="registration__select-field" id="role" name="role" required>
+                            <option value="" disabled selected>Выберите роль</option>
+                            <option value="student">Ученик</option>
+                            <option value="curator">Куратор</option>
+                            <option value="teacher">Преподаватель</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="registration__group">
+                    <div class="registration__select registration__select--custom">
+                        <select class="registration__select-field" id="course" name="course" required>
+                            <option value="" disabled selected>Выбирите курс</option>
+                            <option value="course1">Пазл</option>
+                            <option value="course2">Код</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="registration__group">
+                    <input class="registration__submit" type="submit" value="Зарегистрироваться">
+                </div>
+
+                <div class="registration__group registration__group--center">
+                    <p class="registration__text">
+                        У вас уже есть аккаунт?
+                        <a class="registration__link" href="#">Войти</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
