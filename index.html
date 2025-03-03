@@ -1,13 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/main.js" defer></script>
 </head>
 <body>
-    
+  <header class="page-header">
+    <div class="page-header__container">
+      <div class="page-header__logo">
+        <img src="./images/photo_5285045305013824454_x.png" alt="Logo" class="page-header__logo-img">
+        <div class="page-header__info">
+          <p class="page-header__name">Привет, Максим</p>
+          <p class="page-header__group">группа: ПД19</p>
+        </div>
+      </div>
+      <div class="page-header__actions">
+        <a href="main.html">
+          <img src="./images/btnNotifications.png" width="20" height="20" alt="#" class="page-header__notification">
+        </a>
+          <div class="page-header__menu">
+          <a href="main.html">
+            <img src="./images/01.png" width="24" height="20" alt="menu" class="page-header__menu-icon">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="next-lesson">
+      <div class="next-lesson__title">Следующее занятие</div>
+      <div class="next-lesson__info">
+        <div class="lesson-details">
+          <p class="lesson-details__subject">Дизайн</p>
+          <div class="lesson-details__datetime">
+            <div class="lesson-details__box">
+                <span class="lesson-details__today">Сегодня </span>
+                <span class="lesson-details__time">27.02</span>
+            </div>
+            <div class="lesson-details__box">
+                <span class="lesson-details__today">Время</span>
+                <span class="lesson-details__time">16:00-17:30</span>
+            </div>
+            <button class="next-lesson__connect">подключиться</button>
+        </div>
+        </div>
+        <div class="next-lesson__days">
+          <div class="next-lesson__day"><span>ПН</span><br><span>03.03</span></div>
+          <div class="next-lesson__day"><span>ЧТ</span><br><span>06.03</span></div>
+          <div class="next-lesson__day"><span>ПН</span><br><span>10.03</span></div>
+          <div class="next-lesson__day"><span>ЧТ</span><br><span>10.03</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="homework">
+        <h2 class="homework__title">Домашнее задание</h2>
+        <div class="homework__cards">
+      
+          <div class="homework__card homework__card--active">
+            <div class="homework__card-top">
+              <p class="homework__lesson-number">37 урок</p>
+              <span class="homework__status">!</span>
+            </div>
+            <p class="homework__deadline">до 06.03</p>
+          </div>
+      
+          <div class="homework__card">
+            <div class="homework__card-top">
+              <p class="homework__lesson-number">38 урок</p>
+            </div>
+            <p class="homework__deadline">до 07.03</p>
+          </div>
+      
+          <div class="homework__card">
+            <div class="homework__card-top">
+              <p class="homework__lesson-number">39 урок</p>
+            </div>
+            <p class="homework__deadline">до 08.03</p>
+          </div>
+      
+          <div class="homework__card">
+            <div class="homework__card-top">
+              <p class="homework__lesson-number">40 урок</p>
+            </div>
+            <p class="homework__deadline">до 09.03</p>
+          </div>
+      
+        </div>
+      </section>
+
+    <section class="rating">
+      <h2 class="rating__title">Рейтинг, баллы</h2>
+      <ul class="rating__list">
+        <li class="rating__item">
+          <img src="./images/photo_5285045305013824454_x.png" alt="you" class="rating__avatar">
+          <p class="rating__info">Вы <span class="rating__points">36 баллов</span></p>
+        </li>
+        <li class="rating__item">
+          <img src="./images/photo_5285045305013824453_y.png" alt="alisa" class="rating__avatar">
+          <p class="rating__info">Алиса <span class="rating__points">32 балла</span></p>
+        </li>
+        <li class="rating__item">
+          <img src="./images/photo_5285045305013824455_x.png" alt="nikita" class="rating__avatar">
+          <p class="rating__info">Никита <span class="rating__points">30 баллов</span></p>
+        </li>
+        <li class="rating__item">
+          <img src="./images/photo_5285045305013824452_y (2).png" alt="danila" class="rating__avatar">
+          <p class="rating__info">Данила <span class="rating__points">27 баллов</span></p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="main.html" class="bottom-nav__item">
+      <img src="./images/Vector.png" alt="home" width="20" height="20" class="bottom-nav__icon">
+    </a>
+    <a href="main.html" class="bottom-nav__item">
+      <img src="./images/Vector (2).png" alt="add" width="19" height="19" class="bottom-nav__icon">
+    </a>
+    <a href="main.html" class="bottom-nav__item">
+      <img src="./images/Vector (3).png" alt="tasks" width="20" height="20" class="bottom-nav__icon">
+    </a>
+    <a href="main.html" class="bottom-nav__item">
+      <img src="./images/Vector (4).png" alt="profile" width="16" height="18" class="bottom-nav__icon">
+    </a>
+    <a href="main.html" class="bottom-nav__item">
+        <img src="./images/Vector (1).png" alt="profile" width="20" height="20" class="bottom-nav__icon">
+      </a>
+  </nav>
 </body>
 </html>

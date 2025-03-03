@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.goMain {
+    background: rgb(30, 126, 232);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.reiting-title {
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    color: rgb(30, 126, 232);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 21px;
+}
+
+.reiting-block {
+    display: flex;
+    margin-left: 9px;
+    margin-right: 20px;
+}
+
+.reiting-name {
+    color: rgb(30, 126, 232);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+    margin-left: 17px;
+}
+
+.reiting-balls {
+    color: rgb(30, 126, 232);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 21px;
+    margin-left: auto;
+}
+
+.reiting-line:not(:last-child) {
+    border: 1px solid rgb(26, 57, 90);
+    margin-left: 9px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
