@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.goMain {
+    background: rgb(30, 126, 232);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.goMain:hover {
+    background: rgb(17, 102, 192);
+}
+
 .time-title {
     color: rgb(30, 126, 232);
     font-family: Inter;
@@ -28,15 +47,16 @@
 .text-direction {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 9px;
+    font-size: 18px;
     font-weight: 900;
     margin-left: 15px;
     margin-bottom: 15px;
 }
 
 .text-day {
-    text-align: center;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(255, 151, 34);
     border-radius: 0px 30px 30px 0px;
     width: 146px;

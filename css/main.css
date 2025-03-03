@@ -49,6 +49,10 @@ header {
     color: white;
 }
 
+.nav-line {
+    margin: 10px 0px;
+}
+
 .header-block-p {
     color: rgb(255, 255, 255);
     font-size: Inter;
@@ -59,7 +63,7 @@ header {
 
 .nav-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: 19px;
     margin-right: 19px;
